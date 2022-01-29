@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+:root{
+  --selectcor: #0034a3;
+  --cor1: #a393d3;
+  --cor2: #51476E;
+  --cor3: #2d1f57;
+  --cor4: #18132b;
+  --cor5: #191622;
+}
+
+body{
+  background-color: var(--cor5);
+  color: white;
+}
+
+div#tinicial{
+  margin: 44vh auto;
+  max-height: var(--telaalt);
+  text-align: center;
+}
+div#tinicial > p{
+  font-size: 1.2em;
+  margin: 10px;
+  min-width: 300px;
+}
+
+div#tinicial > p#nome{
+  font-size: 2.3em;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+section{
+  padding: 50px;
+  line-height: 1.6em;
+  border-top-width: 10px;
+  border-color: var(--cor3);
+}
+
+.escuro{
+  background-color: var(--cor4);
+}
+
+section h1{
+  text-indent: 50px;
+  font-size: 1.9em;
+  line-height: 1em;
+  margin: 0px 30px 30px;
+}
+
+section p{
+  text-indent: 40px;
+  text-align: justify;
+  font-size: 1.5em;
+  max-width: 85%;
+  margin: auto;
+  color: var(--cor1);
+}
+
+div#logos{
+  
+  text-align: center;
+}
+
+img{
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: var(--cor2);
+  width: 15%;
+  max-width: 100px;
+}
