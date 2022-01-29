@@ -1,51 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu portifólio</title>
-  <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
-  <header>
-    <div id = "foto">
-      <img src="images/perfil.png" alt="Foto de perfil">
-    </div>
-    <p>
-      Apaixonado por problemas de lógica e tecnologia desde cedo, encontrei na programação o meu caminho.
-    </p>
-    <nav>
-      <a href="#">Sobre Mim</a>
-      <a href="#">Tecnologias</a>
-      <a href="#">Projetos</a>
-      <a href="#">Redes sociais</a>
-    </nav>
-  </header>
-  <main>
-    <article>
-      <h1 id="topo">Sobre Mim</h1>
-      <p>
-        Sou Kevin Washington, tenho 18 anos, adoro jogos principalmente os que envolvam raciocinio, estou prestes a me formar em Técnico de informática pelo Instituto Federal do Pará - IFPA, lá tive meu primeiro contato com programação e desde então foi só alegria.
-      </p>
-      <h1>Sobre este portifólio</h1>
-      <p>
-        Desenvolvi este portifólio para, claro, além de mostrar um pouco do que posso fazer, documentar a minha trilha neste mundo que é codar. Logo, busco utilizar todos os conhecimentos que, no momento que o atualizei, conheço.
-      </p>
-      <h1>Tecnologias</h1>
-      <p>
-        Neste momento estou focando meus estudos na triade do desenvolvimento web: HTML5, CSS3 e Javascript, estudando em um misto de muita prática e video-aulas. Futuramente planejo começar os estudos no back-end, continuando minha trilha ao dev full-stack.
-      </p>
-      <h1>Projetos</h1>
-      <p>
-        Ainda no começo dos estudos desenvolvi poucos projetos, mas aqui estão uns do que mais me orgulho no momento e algumas das coisas novas que pude aprender com eles.
-      </p>
-      <h1>Redes sociais</h1>
-      
-    </article>
-  </main>
-  <footer>
-    <p>Desenvolvido por &copyKevin Washington</p>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu portifólio</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="script/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="tinicial">
+        <p>Olá, eu sou</p>
+        <p id="nome">Kevin Washington.</p>
+        <p>Apaixonado por problemas de lógica e tecnologia.</p>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section class="escuro">
+          <h1>Sobre Mim</h1>
+          <p>
+            Sou Kevin Washington, tenho 18 anos, adoro jogos principalmente os
+            que envolvam raciocinio, estou prestes a me formar em Técnico de
+            informática pelo Instituto Federal do Pará - IFPA, lá tive meu
+            primeiro contato com programação e desde então foi só alegria.
+          </p>
+        </section>
+        <section>
+          <h1>Sobre este portifólio</h1>
+          <p>
+            Desenvolvi este portifólio para, claro, além de mostrar um pouco do
+            que posso fazer, documentar a minha trilha neste mundo que é codar.
+            Logo, busco utilizar todos os conhecimentos que, no momento que o
+            atualizei, conheço.
+          </p>
+        </section>
+        <section class="escuro">
+          <h1>Conhecimentos</h1>
+          <p>
+            Neste momento estou focando meus estudos na triade do
+            desenvolvimento web: HTML5, CSS3 e Javascript, estudando em um misto
+            de muita prática e video-aulas. Em breve planejo começar os
+            estudos no back-end, continuando minha trilha ao dev full-stack.
+          </p>
+          <div id = "logos">
+            <img src="images/html-logo-200.png" alt="logo do html" id=html onclick="htmlinfo()"/>
+            <img src="images/css-logo-200.png" alt="logo do css" id="css" onclick="cssinfo()" />
+            <img src="images/js-logo.png" alt="logo do Javascript" id="js" onclick="jsinfo()">
+            <p style="text-align: left; margin-top: 30px;" id = "infoling">Selecione as imagens para saber um pouco mais sobre ela.</p>
+          </div>
+        </section>
+        <section>
+          <h1>Projetos</h1>
+          <p>
+            Ainda no começo dos estudos desenvolvi poucos projetos, mas aqui
+            estão uns do que mais me orgulho no momento e algumas das coisas
+            novas que pude aprender com eles.
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>Desenvolvido por &copyKevin Washington</p>
+    </footer>
+  </body>
 </html>
