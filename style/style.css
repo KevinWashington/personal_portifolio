@@ -50,13 +50,18 @@ section{
 }
 
 section h1{
-  text-indent: 50px;
   font-size: 1.9em;
   line-height: 1em;
   margin: 0px 30px 30px;
 }
 
-section p{
+section h2{
+  font-size: 1.6em;
+  line-height: 1em;
+  margin: 30px 30px 30px;
+}
+
+section p,ul{
   text-indent: 40px;
   text-align: justify;
   font-size: 1.5em;
@@ -77,4 +82,12 @@ img{
   background-color: var(--cor2);
   width: 15%;
   max-width: 100px;
+}
+
+footer > p{
+  text-align: center;
+  font-size: 1em;
+  max-width: 85%;
+  margin: auto;
+  color: var(--cor1);
 }
