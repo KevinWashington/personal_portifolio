@@ -115,7 +115,7 @@ section#parallax img#mountains_front{
   top: 35vh;
   color: #fff;
   white-space: nowrap;
-  font-size: 5vw;
+  font-size: 3.5em;
   z-index: 9;
 }
 
@@ -177,13 +177,14 @@ article > section p{
   transition: 0.3s;
 }
 
-::marker{
-  color:#0034a3;
-}
 #fleximg img:hover{
+  transform: scale(1.1);
   box-shadow:0px 0px 15px #0034a3;
 }
 
+::marker{
+  color:#0034a3;
+}
 
 footer > p{
   text-align: center;
