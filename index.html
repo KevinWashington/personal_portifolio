@@ -6,20 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu portifólio</title>
     <link rel="stylesheet" href="style/style.css" />
-    <script src="script/script.js"></script>
   </head>
   <body>
+
     <header>
-      <div id="tinicial">
-        <p>Olá, eu sou</p>
-        <p id="nome">Kevin Washington.</p>
-        <p>Apaixonado por problemas de lógica e tecnologia.</p>
-      </div>
+      <a href="#" class="logo">Kevin Portifolio.</a>
+      <ul>
+          <li><a href="#sobremim">Sobre Mim</a></li>
+          <li><a href="#tecnologias">Tecnologias</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#">Contatos</a></li>
+      </ul>
     </header>
+    <section id="parallax">
+        <img src="images/stars.png" id="stars">
+        <img src="images/moon.png" id="moon">
+        <img src="images/mountains_behind.png" id="mountains_behind">
+        <h2 id="text">
+          <span id="gorigth">Kevin</span>
+          <span id="goleft">Washington</span></h2>
+        <a href="#sobremim" id="btn">Explore</a>
+        <img src="images/mountains_front.png" id="mountains_front">
+    </section>
 
     <main>
       <article>
-        <section class="escuro">
+        <section class="escuro" id="sobremim">
           <h1>Sobre Mim</h1>
           <p>
             Sou Kevin Washington, tenho 18 anos, adoro jogos principalmente os
@@ -28,23 +40,9 @@
             primeiro contato com programação e desde então foi só alegria.
           </p>
         </section>
-        <section>
-          <h1>Sobre este portifólio</h1>
-          <p>
-            Desenvolvi este portifólio para, claro, além de mostrar um pouco do
-            que posso fazer, documentar a minha trilha neste mundo que é codar.
-            Logo, busco utilizar todos os conhecimentos que, no momento que o
-            atualizei, conheço.
-          </p>
-          <h2>Proxímas features</h2>
-          <ul>
-            <li>Paralax</li>
-            <li>Menu</li>
-            <li>Responsivade melhorada</li>
-          </ul>
-        </section>
-        <section class="escuro">
-          <h1>Conhecimentos</h1>
+
+        <section id="tecnologias">
+          <h1>Tecnologias</h1>
           <p>
             Neste momento estou focando meus estudos na triade do
             desenvolvimento web: HTML5, CSS3 e Javascript, estudando em um misto
@@ -52,13 +50,14 @@
             estudos no back-end, continuando minha trilha ao dev full-stack.
           </p>
           <div id = "fleximg">
-            <img src="images/html-logo-200.png" alt="logo do html" id=html onclick="htmlinfo()"/>
+            <img src="images/html-logo-200.png" alt="logo do html" id='html' onclick="htmlinfo()"/>
             <img src="images/css-logo-200.png" alt="logo do css" id="css" onclick="cssinfo()" />
             <img src="images/js-logo.png" alt="logo do Javascript" id="js" onclick="jsinfo()">
           </div>
           <p style="text-align: left; margin-top: 30px;" id = "infoling">Selecione as imagens para saber um pouco mais sobre ela.</p>
         </section>
-        <section>
+
+        <section id="projetos">
           <h1>Projetos</h1>
           <p>
             Ainda no começo dos estudos desenvolvi poucos projetos, mas aqui
@@ -68,10 +67,13 @@
 
           <p>Em contrução</p>
         </section>
+
       </article>
     </main>
+
     <footer>
       <p>Desenvolvido por &copyKevin Washington</p>
     </footer>
+    <script src="script/script.js"></script>
   </body>
 </html>
